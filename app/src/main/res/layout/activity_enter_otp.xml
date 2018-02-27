@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fluper.mai.activity.EnterOTP">
+
+    <include
+        android:id="@+id/tToolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textSize="@dimen/sp_14"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/darkgrey"
+        />
+
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_24"
+        android:hint="XXXXXX"
+        android:textSize="@dimen/sp_16"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/hintcolor"
+       android:gravity="center"
+        android:padding="@dimen/dp_14"
+        android:background="@drawable/border"/>
+    <Button
+        android:id="@+id/nextto_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        android:elevation="@dimen/dp_20"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Resend"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/base"
+        android:gravity="center"
+        android:textSize="@dimen/sp_16"/>
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/base"
+        android:gravity="center"
+        android:textSize="@dimen/sp_16"/>
+</LinearLayout>

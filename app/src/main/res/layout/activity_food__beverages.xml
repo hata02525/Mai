@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <include
+        android:id="@+id/tToolbar"
+        layout="@layout/toolbar" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_8">
+    <TextView
+        android:id="@+id/resultshown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="02 results found in Geneva Mall,Geneva"
+        android:textColor="@color/base"
+        android:textSize="@dimen/sp_12"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="@dimen/dp_6"
+        android:layout_toRightOf="@id/resultshown"
+        android:layout_marginStart="@dimen/dp_50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Sort"
+            android:textColorHint="@color/hintcolor"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/sp_10"
+            android:layout_marginLeft="@dimen/dp_8"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/drop_down_grey"
+            android:padding="@dimen/dp_5"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignP   arentRight="true"-->
+        <!--android:layout_toRightOf="@id/resultshown"/>-->
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/base"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sortedlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

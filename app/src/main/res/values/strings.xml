@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Mai</string>
+
+    <string name="facebook_app_id">2014152362197502</string>
+    <string name="google_map_id">AIzaSyAD0s4iviBrrIFNofFVe72PzL78ueYlH_o</string>
+
+
+    <string name="Welcome">Welcome to MAI Discounts!</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="Sign">Sign In</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="or">or</string>
+    <string name="signin">Sign In with Facebook</string>
+    <string name="newhere"> New Here?</string>
+    <string name="create">Create an Account.</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="Signup">Sign Up</string>
+    <string name="Already">Already a Member?</string>
+    <string name="name">Full Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="choose">Choose Passcode</string>
+    <string name="cnfrmpass">Confirm Passcode</string>
+    <string name="submit"> Submit</string>
+    <string name="otp">Enter OTP</string>
+    <string name="text">Please Enter the OTP received on your registered mobile number</string>
+    <string name="next">Next</string>
+    <string name="oldpasscode">Old Passcode</string>
+    <string name="newpasscode">New Passcode</string>
+    <string name="confirmpasscode">Confirm Passcode</string>
+    <string name="oldpswrd">Old Password</string>
+    <string name="confirmpaswrd">Confirm Password</string>
+    <string name="Resend">Resend</string>
+    <string name="changepassword">Change Password</string>
+    <string name="change">Change Mobile Number</string>
+    <string name="fp">Please enter your registered email address to receive OTP</string>
+    <string name="textfor">Please enter the OTP received on your registered email address</string>
+    <string name="np">Please enter your new password</string>
+    <string name="newpass">New Password</string>
+    <string name="reset">Reset Passcode</string>
+    <string name="confirmnew">Confirm New Password</string>
+    <string name="about">About MAI Discounts </string>
+    <string name="terms">Terms Of Use</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="backagain">Tap back again in order to exit</string>
+    <string name="searchfor">Search for Merchants...</string>
+    <string name="Merchants">08 Merchants found with the word "Lorem Ipsum"</string>
+    <string name="time">08:00 hrs to 22:00 hrs</string>
+    <string name="textdescription"> Seatle-based coffehouse chain known for its signature roasts,
+        light bite and WiFi availability</string>
+    <string name="desctitle">Description</string>
+    <string name="services">Services</string>
+    <string name="servc">Courteous Staff,Efficient Staff,Friendly Staff,Cozy Ambience,
+        Live Music</string>
+    <string name="products">Products</string>
+    <string name="valid">Valid till December 2018</string>
+    <string name="offer">1 Free Medium Pizza</string>
+    <string name="title">Starbucks Coffee</string>
+    <string name="review">Review Full Terms &amp; Conditions</string>
+    <string name="voucherredeem">Please enter passcode to redeem redemption</string>
+    <string name="Enter">Enter Passcode</string>
+    <string name="premium">Premium</string>
+    <string name="please">Please scan Starbucks QR Code to continue</string>
+    <string name="accumulated_savings">Accumulated Savings</string>
+    <string name="you">You have just saved approx. PHP 200 &amp; earned 02 MAI points</string>
+    <string name="transaction">Transaction Referece: MIC001A123456789</string>
+    <string name="want">Want Bigger Savings? Subscribe to Premium</string>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>358,AX</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>1,AS</item>
+        <item>1,KY</item>
+        <item>1,DM</item>
+        <item>246,IO</item>
+        <item>1,BV</item>
+        <item>1,AG</item>
+        <item>1,VG</item>
+        <item>1,BS</item>
+        <item>1,BB</item>
+        <item>376,AD</item>
+        <item>247,AC</item>
+        <item>1,AI</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>33,FX</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>594,GF</item>
+        <item>220,GM</item>
+        <item>262,TF</item>
+        <item>995,GE</item>
+        <item>590,GP</item>
+    </string-array>
+
+</resources>
+

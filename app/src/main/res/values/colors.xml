@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="base">#00c6cc</color>
+    <color name="bordergreen"> #069e9e</color>
+    <color name="white">#ffffff </color>
+    <color name="grey">#D2D2D2</color>
+    <color name="black">#000000</color>
+    <color name="hintcolor">#d2d2d2</color>
+    <color name="darkgrey">#313233</color>
+    <color name="dull">#EBEFF2</color>
+    <color name="mapcolor">#96bebebe</color>
+
+    <color name="foodgreen"> #00b050</color>
+    <color name="wellnesscolor">#ffff00</color>
+    <color name="beautycolor">#ff33cc</color>
+    <color name="hotelcolor">#bfbfbf</color>
+    <color name="tourcolor"> #0070c0</color>
+    <color name="attraction">#ff9900</color>
+    <color name="retailcolor">#ff0000</color>
+    <color name="servicecolor"> #7030a0</color>
+    <color name="education">#996633 </color>
+    <color name="medical"> #ffffff </color>
+    <color name="light">#5ABEBEBE</color>
+</resources>
